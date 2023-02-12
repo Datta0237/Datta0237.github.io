@@ -1,0 +1,33 @@
+#nav-menu{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 5%;
+}
+#nav-menu > div{
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+#nav-menu > div:hover{
+    font-size: x-large;
+    font-display: red;
+    background-color: blue;
+}
+
+#intro{
+    width: 60%;
+    height: 60%;
+    border: 1px solid red;  
+    margin: auto;
+}
+#user-detail-name{
+    text-align: center;
+    text-decoration-color: blueviolet;
+    animation-duration: 1000
+}
+#user-detail-intro{
+    text-align: center;
+}
